@@ -1,0 +1,73 @@
+# 🖼️ Image Processing GUI
+
+This project is a simple yet powerful **Graphical User Interface (GUI)** for basic image processing operations. It allows users to perform functions such as converting RGB images to grayscale, displaying histograms, generating image complements, and more — all with just a few clicks.
+
+---
+
+## 🚀 Features
+
+- ✅ Upload and display any image
+- 🎨 Convert RGB to **Grayscale**
+- 📊 Display **Histogram** of the image
+- 🌓 Generate **Complement** (negative) of the image
+- 🔄 **Reset** to original image
+
+---
+
+## 🛠️ Technologies Used
+
+- **MATLAB** (GUI created using GUIDE or App Designer)
+- Image Processing Toolbox
+
+---
+
+## 🖥️ How to Run
+
+1. Open MATLAB.
+2. Navigate to the project directory.
+3. Open the `.fig` and `.m` file (if using GUIDE), or `.mlapp` file (if using App Designer).
+4. Click **Run** to launch the GUI.
+
+---
+
+## 🧪 How to Use the GUI
+
+1. Click the **Upload Image** button to select and load an image.
+2. Use any of the available buttons to:
+   - Convert to **Grayscale**
+   - Show **Histogram**
+   - View **Image Complement**
+3. Use the **Reset** button to go back to the original image.
+
+---
+
+## 📷 Sample Functions Implemented
+
+- `rgb2gray()` — Converts RGB to grayscale
+- `imhist()` — Displays the histogram
+- `imcomplement()` — Generates the image complement
+- `imshow()` — Displays images in the GUI axes
+- Custom callback functions for all buttons
+
+---
+
+## 📁 Files Included
+
+- `sample.fig` / `image_gui.mlapp` — GUI design file
+- `sample.m` — GUI logic and callbacks
+- `README.md` — This documentation file
+
+---
+
+## 🙌 Credits
+
+Developed by **Pavan**  
+Electronics and Communication Engineering (ECE), 2nd Year  
+Passionate about Image Processing and MATLAB development.
+
+---
+
+## 📬 Contact
+
+For suggestions or questions, feel free to reach out!
+
